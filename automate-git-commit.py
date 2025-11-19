@@ -19,7 +19,7 @@ untracked_files=[]
 
 for file in lines:
     if file.startswith("??") or file.startswith(" M") or file.startswith("A ") or file.startswith("AM"):
-        file_name=file[3:]
+        file_name = file[3:].strip().strip('"')
         print(file_name)
         untracked_files.append(file_name)
 
