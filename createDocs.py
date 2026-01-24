@@ -57,7 +57,58 @@ speakers = {
 
 doc = Document()
 doc.add_heading('TEDXGECRIT23 Speakers', level=1)
+doc.add_paragraph("""About TEDx GEC RIT
 
+TED  GEC RIT is an independently organized TED event hosted by Government Engineering College, RIT. Our goal is to bring together a diverse group of thinkers, innovators, creators, and changemakers to share ideas that inspire.
+Guided by the spirit of “ideas worth spreading,” TEDx GEC RIT provides a platform where powerful stories, ground-breaking perspectives, and meaningful conversations come alive.
+
+
+
+
+Our Vision
+
+To spark curiosity, encourage open dialogue, and build a community that believes in the power of ideas to shape a better future.
+We aim to create a space where students, faculty, industry professionals, and thought leaders can come together and reimagine what is possible.
+
+
+
+
+
+
+Why TEDx at GEC RIT?
+
+GEC RIT has always stood for innovation, creativity, and community-driven learning. TEDx helps us extend these values beyond the classroom by:
+
+Showcasing voices and perspectives from different fields
+
+Encouraging students to think beyond academics
+
+Creating opportunities for collaboration and impact
+
+Connecting our campus to a global network of ideas
+
+
+
+
+
+
+
+What Happens at TEDx GEC RIT?
+
+Our event features:
+
+Inspiring Talks from speakers who are experts, visionaries, or passionate storytellers
+
+Interactive Sessions & Performances that connect art, technology, and culture
+
+Networking Opportunities where participants meet speakers, innovators, and peers
+
+Idea Showcases highlighting student-led initiatives
+
+
+Each edition of TEDx GEC RIT is designed to spark meaningful conversations and leave the audience with new perspectives, motivation, and purpose.
+
+TEDx GEC RIT is more than an event — it’s a movement within our campus.""")
 for name, info in speakers.items():
 
 
